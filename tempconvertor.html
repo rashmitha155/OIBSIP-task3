@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletask3.css">
+    <script src="scripttask3.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Temperature Converter</div>
+        <div class="row1">
+            <div class="box1">
+                <h5>Value to Convert</h6>
+                <input type="number" name="" id="num">
+            </div>
+            <div class="box1">
+                <h5>Temperature Type</h6>
+                    <select name="" id="temp">   
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>  
+                   </select>
+            </div>
+        </div>
+        <div class="row2">
+            <h5>Converted Temperature</h6>
+            <div id="res"></div>
+        </div>
+        <center><button class="btn" onclick="convert()">Convert</button></center>
+    </div>
+</body>
+</html>
